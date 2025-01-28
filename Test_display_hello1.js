@@ -18,6 +18,7 @@ function() {
      */
     function pageInit(scriptContext) {
         alert('Hello User');
+      
     }
 
     /**
@@ -33,7 +34,7 @@ function() {
      * @since 2015.2
      */
     function fieldChanged(scriptContext) {
-
+             alert('alert when phone number is added')
     }
 
     /**
@@ -146,12 +147,11 @@ function() {
      * @param {Record} scriptContext.currentRecord - Current form record
      * @returns {boolean} Return true if record is valid
      *
-     * @since 2015.2
+     * @since 2015.2    
      */
     function saveRecord(scriptContext) {
-
     }
-
+    
     return {
         pageInit: pageInit,
         fieldChanged: fieldChanged,
